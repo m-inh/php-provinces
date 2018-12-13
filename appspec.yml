@@ -9,7 +9,7 @@ hooks:
   BeforeInstall:
     - sh scripts/before_install.sh
   AfterInstall:
-    - location: scripts/after_install.sh
+    - sh scripts/after_install.sh
       timeout: 180
   #ApplicationStart:
   #  - sudo systemctl res
