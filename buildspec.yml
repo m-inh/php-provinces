@@ -20,7 +20,7 @@ phases:
       # - command
   build:
     commands:
-       - location: ./scripts/build.sh
+       - location: scripts/build.sh
   #post_build:
     #commands:
       # - command
