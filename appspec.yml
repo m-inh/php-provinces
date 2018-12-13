@@ -1,0 +1,20 @@
+version: 1.0
+os: linux
+files:
+  #- source: Config/config.txt
+  #  destination: /webapps/Config
+  #- source: source
+  #  destination: /webapps/myApp
+hooks:
+  BeforeInstall:
+    - sh install.sh
+  #AfterInstall:
+  #  - location: Scripts/RunResourceTests.sh
+  #    timeout: 180
+  #ApplicationStart:
+  #  - sudo systemctl res
+  #    timeout: 3600
+  #ValidateService:
+  #  - location: Scripts/MonitorService.sh
+  #    timeout: 3600
+  #    runas: codedeployuser
