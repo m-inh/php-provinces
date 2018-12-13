@@ -20,7 +20,8 @@ phases:
       # - command
   build:
     commands:
-       - ./scripts/build.sh
+        #- ./scripts/build.sh
+        - echo 'build...'
   #post_build:
     #commands:
       # - command
