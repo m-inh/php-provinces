@@ -2,7 +2,7 @@ version: 1.0
 os: linux
 files:
   - source: /
-    destination: /var/www/
+    destination: /var/www/php-provinces/
   #- source: source
   #  destination: /webapps/myApp
 hooks:
