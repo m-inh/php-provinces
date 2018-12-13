@@ -18,9 +18,9 @@ phases:
     #commands:
       # - command
       # - command
-  build:
-    commands:
-      - sh ./scripts/build.sh
+  #build:
+  #  commands:
+  #    - sh ./scripts/build.sh
       # - command
   #post_build:
     #commands:
