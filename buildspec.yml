@@ -1,0 +1,38 @@
+version: 0.2
+
+#env:
+  #variables:
+      #db_endpoint: "value"
+      #db_user: "value"
+      #db_password: ""
+  #parameter-store:
+     # key: "value"
+     # key: "value"
+
+phases:
+  #install:
+    #commands:
+      # - command
+      # - command
+  #pre_build:
+    #commands:
+      # - command
+      # - command
+  build:
+    commands:
+      - sh build.sh
+      # - command
+  #post_build:
+    #commands:
+      # - command
+      # - command
+artifacts:
+  files:
+    - ./myapp.zip
+    # - location
+  name: $(date +%Y-%m-%d)
+  #discard-paths: yes
+  #base-directory: location
+#cache:
+  #paths:
+    # - paths
