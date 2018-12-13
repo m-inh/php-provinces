@@ -8,6 +8,8 @@ files:
 hooks:
   BeforeInstall:
     - sh scripts/before_install.sh
+      timeout: 300
+      runas: root
   #AfterInstall:
   #  - sh scripts/after_install.sh
   #    timeout: 180
