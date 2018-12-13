@@ -7,10 +7,10 @@ files:
   #  destination: /webapps/myApp
 hooks:
   BeforeInstall:
-    - sh install.sh
-  #AfterInstall:
-  #  - location: Scripts/RunResourceTests.sh
-  #    timeout: 180
+    - sh scripts/before_install.sh
+  AfterInstall:
+    - location: scripts/after_install.sh
+      timeout: 180
   #ApplicationStart:
   #  - sudo systemctl res
   #    timeout: 3600
