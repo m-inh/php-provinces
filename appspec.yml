@@ -8,9 +8,9 @@ files:
 hooks:
   BeforeInstall:
     - sh scripts/before_install.sh
-  AfterInstall:
-    - sh scripts/after_install.sh
-      timeout: 180
+  #AfterInstall:
+  #  - sh scripts/after_install.sh
+  #    timeout: 180
   #ApplicationStart:
   #  - sudo systemctl res
   #    timeout: 3600

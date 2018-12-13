@@ -28,9 +28,9 @@ phases:
       # - command
 artifacts:
   files:
-    - ./myapp.zip
+    - '**/*'
     # - location
-  name: $(date +%Y-%m-%d)
+  name: my_php_app_$(date +%Y-%m-%d)
   #discard-paths: yes
   #base-directory: location
 #cache:
