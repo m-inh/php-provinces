@@ -1,8 +1,8 @@
 version: 1.0
 os: linux
 files:
-  #- source: Config/config.txt
-  #  destination: /webapps/Config
+  - source: /
+    destination: /var/www/
   #- source: source
   #  destination: /webapps/myApp
 hooks:
