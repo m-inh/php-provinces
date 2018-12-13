@@ -1,4 +1,4 @@
-version: 0.2
+version: 0.0
 
 #env:
   #variables:
@@ -20,8 +20,7 @@ phases:
       # - command
   build:
     commands:
-        #- sh ./scripts/build.sh
-       - echo 'build....'
+       - location: ./scripts/build.sh
   #post_build:
     #commands:
       # - command

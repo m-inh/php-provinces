@@ -1,4 +1,4 @@
-version: 1.0
+version: 0.0
 os: linux
 files:
   - source: /
@@ -7,8 +7,8 @@ files:
   #  destination: /webapps/myApp
 hooks:
   BeforeInstall:
-    - sh scripts/before_install.sh
-      timeout: 300
+      - location: scripts/before_install.sh
+      timeout: 10
       runas: root
   #AfterInstall:
   #  - sh scripts/after_install.sh

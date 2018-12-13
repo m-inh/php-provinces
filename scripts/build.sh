@@ -1,1 +1,3 @@
-zip -r myapp ./
+#!/usr/bin/env bash
+
+echo 'build....'
