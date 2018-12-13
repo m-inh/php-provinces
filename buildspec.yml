@@ -19,7 +19,6 @@ phases:
       # - command
       # - command
   build:
-    run-as: root
     commands:
        - ./scripts/build.sh
   #post_build:
