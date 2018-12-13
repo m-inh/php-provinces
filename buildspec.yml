@@ -1,4 +1,4 @@
-version: 1.0
+version: 0.2
 
 #env:
   #variables:
@@ -19,6 +19,7 @@ phases:
       # - command
       # - command
   build:
+    run-as: root
     commands:
        - ./scripts/build.sh
   #post_build:
