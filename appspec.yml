@@ -2,14 +2,14 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/php-provinces/
+    destination: /var/www/html/
   #- source: source
   #  destination: /webapps/myApp
 hooks:
   BeforeInstall:
       - location: scripts/before_install.sh
-      timeout: 10
-      runas: root
+      #timeout: 10
+      #runas: root
   #AfterInstall:
   #  - sh scripts/after_install.sh
   #    timeout: 180
